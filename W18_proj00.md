@@ -33,8 +33,11 @@ maze. The game provides a few different ways to play the game such as inverse co
 	
 ### New User Stories:
 * As a user, I can customize the board with any color so that I have full control of what the maze will look like.
+
 * As a user, I can play against an AI enemy so that it increases the difficulties of the maze.
+
 * As a user, I can select the difficulty of the maze so that I have simplified options to choose from.
+
 * As a user. I can check the solution from my current location so that I know exactly how to get to the end of the maze.
 	
 ### Current README.md
