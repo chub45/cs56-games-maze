@@ -40,6 +40,19 @@ W16 Final Remarks
 * Final Remarks:
  * Majority of code is handled in MazeGui.java, in order to add different game features such as two players or an enemy, a more more object oriented approach would be needed. Thus, next year's students should look into refactoring much of the code.
 
+W18 Final Remarks
+ 44 * We've added custom color selection (maze contrasts with selected) as well as custom music selection (short .wav files
+ 45   only)
+ 46 * Bugs for pause, music, and game controls (arrow keys in inverse mode) have been fixed
+ 47 * Final Remarks:
+ 48     * For maze interface, check MazeGui.java, read the README.md for clarifications regarding classes. For example, timer bar, solve button, and the
+ 49       "how to" button are NOT in the MazeGui class
+ 50     Solidify your understanding of Swing (will be taught in class), since a majority of the GUI involves buttons.
+ 51     Additional features that can be added include adding:
+ 52     - a two-player mode (need progressive reveal on at all times to be fair)
+ 53     - refactoring needed (highly recommended to request as an issue)
+
+
 project history
 ===============
 ```
