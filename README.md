@@ -43,11 +43,15 @@ W16 Final Remarks
 W18 Final Remarks
 * We've added custom color selection (maze contrasts with selected) as well as custom music selection (short .wav files
     only)
- * Bugs for pause, music, and game controls (arrow keys in inverse mode) have been fixed
+ * Bugs for pause, music, and game controls (arrow keys in inverse mode) have been fixed:
+   * Load and save now working as intended
+   * Maze creation and pause now no longer overlap each other
+   * Polished game itself (automatic update to newly selected features)
  * Final Remarks:
  * For maze interface, check MazeGui.java, read the README.md for clarifications regarding classes. For example, timer bar, solve button, and the "how to" button are NOT in the MazeGui class
    Solidify your understanding of Swing (will be taught in class), since a majority of the GUI involves buttons.
   Additional features that can be added include adding:
+     - add a key-door game mode (labrynth-style game)
      - a two-player mode (need progressive reveal on at all times to be fair)
      - refactoring needed (highly recommended to request as an issue)
 
